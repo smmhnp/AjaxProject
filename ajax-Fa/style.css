@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: b koodak;
+    font-size: 20px;
+    direction: rtl;
+    text-align: right;
+}
+
+.box{
+    width: 100%;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+th, td {
+    text-align: center !important;
+}
+
+.dataTables_wrapper {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+table.dataTable {
+    border-collapse: collapse !important;
+    border: 1px solid #ddd !important;
+    width: 100% !important;
+}
+
+div.table-responsive>div.dataTables_wrapper>div.row>div[class^=col-]:last-child {
+    padding: 0;
+}
+
+table.dataTable td {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
